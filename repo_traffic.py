@@ -104,7 +104,7 @@ if __name__ == "__main__":
     password = sys.argv[2]
     repo_name = sys.argv[3]
     repo_traffic = RepoTraffic(username, password)
-    repo_traffic.cache_repo("pullword")
+    repo_traffic.cache_repo(repo_name)
     print repo_traffic.get_all_data()
     # print repo_traffic.get_visit_data()
     # print repo_traffic.get_clone_data()
