@@ -13,4 +13,8 @@ password = ""
 repo_traffic = RepoTraffic(username, password)
 repo_traffic.cache_repo("pullword")
 print repo_traffic.get_all_data()
+print repo_traffic.get_visit_data()
+print repo_traffic.get_clone_data()
+print repo_traffic.get_reffer_sites()
+print repo_traffic.get_popular_content()
 ```
